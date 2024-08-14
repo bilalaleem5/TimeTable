@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable by SkimDev</title>
+    <link rel="icon" href="{{ url_for('static', filename='3.png') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/kTcqLOY0KDL7xK+0JoF4L7s4SOI6leht7Vv1dyy8Heg1tGTGm8BZT/bNQz1s34J/a3qqeSTYhw5RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(#06060cf2, #1a2d63f2) !important;
+            color: #fff;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header.scrolled {
+            background: rgba(19, 48, 82, 0.95);
+            /* 95% opacity */
+        }
+
+        .header .logo img {
+            height: 60px;
+            animation: fadeInLeft 1s forwards;
+            padding-left: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-align: center;
+            flex: 1;
+            animation: fadeInDown 1s forwards;
+        }
+
+        .header .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5em;
+            animation: fadeInRight 1s forwards;
+        }
+
+        .header .social-icons a:hover {
+            color: #0a2039;
+        }
+
+        .nav-tabs .nav-link {
+            color: #133052;
+            font-weight: bold;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #133052;
+            color: #fff;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            cursor: pointer;
+            padding: 10px 20px;
+            border: 1px solid #133052;
+            border-radius: 5px;
+            background-color: #133052;
+            color: white;
+            transition: background-color 0.3s ease;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .tab:hover {
+            background-color: #0a2039;
+        }
+
+        .tab.active {
+            background-color: #0a2039;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #133052;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #133052;
+            color: white;
+        }
+
+        /*******************************/
+        /********* Footer CSS **********/
+        /*******************************/
+        .footer {
+            position: relative;
+            margin-top: 45px;
+            background: linear-gradient(#06060cf2, #1a2d63f2) !important;
+        }
+
+        .footer .container-fluid {
+            padding: 60px 0 0 0;
+        }
+
+        .footer .footer-info {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer .footer-info h2 {
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .footer .footer-info h3 {
+            margin-bottom: 25px;
+            font-size: 22px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .footer .footer-menu {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer .footer-menu p {
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 0 15px;
+            border-right: 1px solid #ffffff;
+        }
+
+        .footer .footer-menu p:last-child {
+            border: none;
+        }
+
+        .footer .footer-social {
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .footer .footer-social a {
+            display: inline-block;
+        }
+
+        .footer .footer-social a i {
+            margin-right: 15px;
+            font-size: 20px;
+            color: #ffffff;
+            transition: .3s;
+        }
+
+        .footer .footer-social a:last-child i {
+            margin: 0;
+        }
+
+        .footer .footer-social a:hover i {
+            color: #414141;
+        }
+
+        .footer .copyright {
+            position: relative;
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        .footer .copyright::before {
+            position: absolute;
+            content: "";
+            width: 50%;
+            height: 1px;
+            top: 0;
+            left: 25%;
+            background: rgba(256, 256, 256, .2);
+        }
+
+        .footer .copyright p {
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .footer .copyright .col-md-6:last-child p {
+            text-align: right;
+        }
+
+        .footer .copyright p a {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .footer .copyright p a:hover {
+            color: #414141;
+        }
+
+        @media (max-width: 575.98px) {
+            .footer .footer-info h2 {
+                margin-bottom: 20px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .footer .footer-info h3 {
+                margin-bottom: 20px;
+                font-size: 16px;
+            }
+
+            .footer .footer-menu p {
+                font-size: 16px;
+                line-height: 16px;
+                padding: 0 5px;
+            }
+        }
+
+        .search-form {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .search-form input,
+        .search-form select,
+        .search-form button {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #133052;
+            border-radius: 5px;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .search-form button {
+            background-color: #133052;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-form button:hover {
+            background-color: #0a2039;
+        }
+
+        @media (max-width: 768px) {
+            .tabs {
+                flex-direction: column;
+            }
+
+            .tab {
+                margin-bottom: 10px;
+            }
+
+            .search-form input,
+            .search-form select,
+            .search-form button {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+            }
+
+            .header .social-icons {
+                display: none;
+            }
+        }
+    </style>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='3.png') }}" alt="Logo">
+        </div>
+        <h1>Timetable by SkimDev</h1>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <form class="search-form" method="post" action="/search">
+            <input type="text" name="course" placeholder="Search by course">
+            <select name="day">
+                <option value="">Select day</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+            </select>
+            <select name="degree">
+                <option value="">Select degree</option>
+                <option value="CS">Computer Science</option>
+                <option value="SE">Software Engineering</option>
+                <option value="AI">Artificial Intelligence</option>
+                <option value="DS">Data Science</option>
+                <option value="CYS">Cyber Security</option>
+            </select>
+            <select name="class_section">
+                <option value="">Select class section</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="tabs">
+            {% for day in days %}
+            <div class="tab {% if day == selected_day %}active{% endif %}"
+                onclick="window.location.href='/?day={{ day }}'">{{ day }}</div>
+            {% endfor %}
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Room</th>
+                    <th>Course</th>
+                    <th>Section</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in day_timetable %}
+                <tr>
+                    <td>{{ row['Day'] }}</td>
+                    <td>{{ row['Class'] }}</td>
+                    <td>{{ row['Course'] }}</td>
+                    <td>{{ row['Section'] }}</td>
+                    <td>{{ row['Time'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="footer-info">
+                    <img width="110px" height="90px" src="{{ url_for('static', filename='3.png') }}" alt=""><br><br>
+                    <h2>SkimDev</h2>
+                    <h3>Islamabad, Paksitan</h3 <div class="footer-menu">
+                    <p>03333332460<br><br>03055531335</p>
+                    <p>info@skimdev.com</p>
+                </div>
+                <div class="footer-social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; <a href="#">SkimDev</a>, All Right Reserved | Designed By <a href="#home">Skimdev</a></p>
+        </div>
+    </div>
+    </div>
+    <!-- Footer End -->
+
+    <script>
+        window.onscroll = function () {
+            var header = document.querySelector('.header');
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        };
+    </script>
+
+</html>

@@ -1,0 +1,266 @@
+Class,Day,Course,Section,Type,Time
+C-301,Tuesday,Understand Quran ,CS-B,Theory,08:30-09:50
+C-301,Tuesday,Func Eng ,CS-A,Theory,11:30-12:50
+C-301,Tuesday,Func Eng ,CS-C,Theory,01:00-02:20
+C-301,Tuesday,OOP ,"CY, 23",Theory,03:55-05:15
+C-301,Tuesday,Adv OS ,CS,Theory,05:20-06:40 
+C-301,Tuesday,Adv Algo ,CS,Theory,06:45-08:05
+C-302,Tuesday,Calculus ,CS-D,Theory,08:30-09:50
+C-302,Tuesday,Data St ,SE-B,Theory,10:00-11:20
+C-302,Tuesday,Calculus ,CS-C,Theory,11:30-12:50
+C-302,Tuesday,Calculus ,CS-B,Theory,01:00-02:20
+C-302,Tuesday,Func Eng ,AI-C,Theory,02:30-03:50
+C-302,Tuesday,App Info Sec ,CY,Theory,05:20-06:40 
+C-302,Tuesday,Sec Sys Design ,CY,Theory,06:45-08:05
+C-303,Tuesday,PF ,CS-E,Theory,08:30-09:50
+C-303,Tuesday,AP ,CS-E,Theory,10:00-11:20
+C-303,Tuesday,Understand Quran ,CS-D,Theory,11:30-12:50
+C-303,Tuesday,Calculus ,CS-A,Theory,02:30-03:50
+C-303,Tuesday,Adv Qual Assur ,SE,Theory,05:20-06:40 
+C-303,Tuesday,Adv S/w Arch ,SE,Theory,06:45-08:05
+C-304,Tuesday,AP ,CS-F,Theory,08:30-09:50
+C-304,Tuesday,PF ,CS-F,Theory,10:00-11:20
+C-304,Tuesday,PF ,CS-G,Theory,11:30-12:50
+C-304,Tuesday,Deep Learn for Perc ,CS-A,Theory,01:00-02:20
+C-304,Tuesday,Info Sec ,CS-F,Theory,02:30-03:50
+C-304,Tuesday,PPIT ,CS-F,Theory,03:55-05:15
+C-304,Tuesday,Math Found for AI ,AI,Theory,05:20-06:40 
+C-304,Tuesday,Adv AI ,AI,Theory,06:45-08:05
+C-305,Tuesday,Ideol of Pak ,AI-B,Theory,08:30-09:50
+C-305,Tuesday,Func Eng ,AI-A,Theory,11:30-12:50
+C-305,Tuesday,PPIT ,CS-G,Theory,02:30-03:50
+C-305,Tuesday,Info Sec ,CS-G,Theory,03:55-05:15
+C-305,Tuesday,Deep Learn ,DS,Theory,05:20-06:40 
+C-305,Tuesday,NLP ,DS,Theory,06:45-08:05
+C-307,Tuesday,Calculus ,AI-A,Theory,10:00-11:20
+C-307,Tuesday,Calculus ,AI-C,Theory,11:30-12:50
+C-307,Tuesday,Calculus ,AI-B,Theory,01:00-02:20
+C-307,Tuesday,Info Sec ,CS-H,Theory,02:30-03:50
+C-307,Tuesday,PPIT ,CS-H,Theory,03:55-05:15
+C-307,Tuesday,Stat. Methods for DS ,DS,Theory,05:20-06:40 
+C-308,Tuesday,PF ,SE-A,Theory,08:30-09:50
+C-308,Tuesday,AP ,SE-A,Theory,10:00-11:20
+C-308,Tuesday,AP ,SE-B,Theory,11:30-12:50
+C-308,Tuesday,Entre ,AI-J/K,Theory,01:00-02:20
+C-308,Tuesday,Comp Net ,DS-U,Theory,02:30-03:50
+C-308,Tuesday,Info Sec ,DS-U,Theory,03:55-05:15
+C-309,Tuesday,LA ,CS-F,Theory,08:30-09:50
+C-309,Tuesday,Data St ,CS-F,Theory,10:00-11:20
+C-309,Tuesday,PF ,SE-C,Theory,11:30-12:50
+C-309,Tuesday,AP ,SE-C,Theory,01:00-02:20
+C-309,Tuesday,Formal Methods in SE ,SE-P,Theory,02:30-03:50
+C-309,Tuesday,Formal Methods in SE ,SE-Q,Theory,03:55-05:15
+C-310,Tuesday,AP ,DS-A,Theory,08:30-09:50
+C-310,Tuesday,PF ,DS-A,Theory,10:00-11:20
+C-310,Tuesday,AP ,DS-B,Theory,11:30-12:50
+C-310,Tuesday,PF ,DS-B,Theory,01:00-02:20
+C-310,Tuesday,PF ,SE-B,Theory,02:30-03:50
+C-311,Tuesday,Func Eng ,CY-B,Theory,08:30-09:50
+C-311,Tuesday,Calculus ,CY-B,Theory,11:30-12:50
+C-311,Tuesday,Seerah ,CY-B,Theory,01:00-02:20
+C-401,Tuesday,COAL ,CS-E,Theory,08:30-09:50
+C-401,Tuesday,Calculus ,CY-A,Theory,10:00-11:20
+C-401,Tuesday,Func Eng ,CY-A,Theory,11:30-12:50
+C-401,Tuesday,AP ,CS-G,Theory,02:30-03:50
+C-402,Tuesday,Civics ,CS-A,Theory,08:30-09:50
+C-402,Tuesday,Data St ,CS-E,Theory,11:30-12:50
+C-402,Tuesday,LA ,CS-E,Theory,01:00-02:20
+C-402,Tuesday,Discrete ,CS-A,Theory,02:30-03:50
+C-403,Tuesday,Civics ,CS-D,Theory,08:30-09:50
+C-403,Tuesday,Civics ,CS-B,Theory,10:00-11:20
+C-403,Tuesday,Discrete ,CS-B,Theory,01:00-02:20
+C-403,Tuesday,Discrete ,CS-D,Theory,02:30-03:50
+C-404,Tuesday,Data St ,CS-G,Theory,08:30-09:50
+C-404,Tuesday,LA ,CS-G,Theory,10:00-11:20
+C-404,Tuesday,COAL ,CS-G,Theory,11:30-12:50
+C-404,Tuesday,COAL ,CS-F,Theory,01:00-02:20
+C-404,Tuesday,Civics ,CS-C,Theory,02:30-03:50
+C-405,Tuesday,Data Ware & BI ,DS-B,Theory,10:00-11:20
+C-405,Tuesday,Data Ware & BI ,DS-A,Theory,11:30-12:50
+C-405,Tuesday,LA ,DS-C,Theory,01:00-02:20
+C-405,Tuesday,DLD ,DS-C,Theory,02:30-03:50
+C-406,Tuesday,Islamic ,SE-A,Theory,08:30-09:50
+C-406,Tuesday,Prob & Stats ,DS-A,Theory,11:30-12:50
+C-406,Tuesday,Prob & Stats ,DS-B,Theory,01:00-02:20
+C-406,Tuesday,LA ,AI-B,Theory,02:30-03:50
+C-407,Tuesday,Data St ,DS-C,Theory,08:30-09:50
+C-407,Tuesday,Intro to DS ,DS-C,Theory,10:00-11:20
+C-407,Tuesday,COAL ,CY-C,Theory,11:30-12:50
+C-407,Tuesday,LA ,AI-A,Theory,01:00-02:20
+C-407,Tuesday,DLD ,AI-A,Theory,02:30-03:50
+C-408,Tuesday,Data St ,AI-A,Theory,08:30-09:50
+C-408,Tuesday,Prog for AI ,AI-A,Theory,10:00-11:20
+C-408,Tuesday,Discrete ,CS-C,Theory,11:30-12:50
+C-408,Tuesday,Discrete ,CY-A,Theory,01:00-02:20
+C-408,Tuesday,Cy Sec ,CY-A,Theory,02:30-03:50
+C-409,Tuesday,Prog for AI ,AI-B,Theory,08:30-09:50
+C-409,Tuesday,Data St ,AI-B,Theory,10:00-11:20
+C-409,Tuesday,DLD ,AI-B,Theory,11:30-12:50
+C-409,Tuesday,Cy Sec ,CY-B,Theory,01:00-02:20
+C-409,Tuesday,Discrete ,CY-B,Theory,02:30-03:50
+C-409,Tuesday,DB ,"AI-B, 22",Theory,03:55-05:15
+C-410,Tuesday,Data St ,CY-A,Theory,08:30-09:50
+C-410,Tuesday,LA ,CY-A,Theory,10:00-11:20
+C-410,Tuesday,SDA ,CS-F,Theory,11:30-12:50
+C-410,Tuesday,Comp Net ,CS-F,Theory,01:00-02:20
+C-410,Tuesday,AI ,CS-Robo,Theory,02:30-03:50
+C-410,Tuesday,DLD ,"CS/AI/DS/SE/CY, 23",Theory,03:55-05:15
+B-227,Tuesday,LA ,CY-B,Theory,08:30-09:50
+B-227,Tuesday,Data St ,CY-B,Theory,10:00-11:20
+B-227,Tuesday,Numerical ,CS-A,Theory,11:30-12:50
+B-227,Tuesday,TBW ,CS-A,Theory,01:00-02:20
+B-227,Tuesday,DB ,"CS-C, 22",Theory,02:30-03:50
+B-227,Tuesday,DB ,"CS-D, 22",Theory,03:55-05:15
+B-229,Tuesday,Automata ,CS-F,Theory,08:30-09:50
+B-229,Tuesday,Automata ,CS-J,Theory,10:00-11:20
+B-229,Tuesday,Comp Net ,CS-J,Theory,11:30-12:50
+B-229,Tuesday,SDA ,CS-J,Theory,01:00-02:20
+B-229,Tuesday,OS ,"CS-D, 22",Theory,02:30-03:50
+B-229,Tuesday,OS ,"CS-C, 22",Theory,03:55-05:15
+B-230,Tuesday,Comp Net ,CS-B,Theory,08:30-09:50
+B-230,Tuesday,SDA ,CS-B,Theory,10:00-11:20
+B-230,Tuesday,Automata ,CS-B,Theory,11:30-12:50
+B-230,Tuesday,Comp Net ,CS-K,Theory,01:00-02:20
+B-230,Tuesday,Psychology ,SE-B,Theory,02:30-03:50
+A-108,Tuesday,SDA ,CS-H,Theory,08:30-09:50
+A-108,Tuesday,Comp Net ,CS-H,Theory,10:00-11:20
+A-108,Tuesday,TBW ,CS-C,Theory,11:30-12:50
+A-108,Tuesday,Automata ,CS-H,Theory,01:00-02:20
+A-108,Tuesday,Numerical ,CS-G,Theory,02:30-03:50
+A-108,Tuesday,TBW ,CS-G,Theory,03:55-05:15
+A-211,Tuesday,Automata ,CS-K,Theory,08:30-09:50
+A-211,Tuesday,SDA ,CS-K,Theory,10:00-11:20
+A-211,Tuesday,Net & Cy Sec-II ,CY-B,Theory,11:30-12:50
+A-211,Tuesday,Numerical ,CS-E,Theory,01:00-02:20
+A-211,Tuesday,TBW ,CS-D,Theory,02:30-03:50
+A-211,Tuesday,Numerical ,CS-D,Theory,03:55-05:15
+A-301,Tuesday,NLP ,C,Theory,08:30-09:50
+A-301,Tuesday,Numerical ,CS-C,Theory,10:00-11:20
+A-301,Tuesday,Data Analysis ,DS-D,Theory,11:30-12:50
+A-301,Tuesday,OS ,DS-C,Theory,01:00-02:20
+A-301,Tuesday,Data Analysis ,DS-C,Theory,02:30-03:50
+A-301,Tuesday,Algo ,DS-C,Theory,03:55-05:15
+A-302,Tuesday,OS ,DS-D,Theory,08:30-09:50
+A-302,Tuesday,TBW ,CS-E,Theory,10:00-11:20
+A-302,Tuesday,OS ,AI-A,Theory,11:30-12:50
+A-302,Tuesday,ML ,AI-A,Theory,01:00-02:20
+A-302,Tuesday,TBW ,DS-B,Theory,03:55-05:15
+A-303,Tuesday,Algo ,AI-A,Theory,08:30-09:50
+A-303,Tuesday,Algo ,AI-B,Theory,10:00-11:20
+A-303,Tuesday,OS ,AI-B,Theory,11:30-12:50
+A-303,Tuesday,Algo ,DS-D,Theory,01:00-02:20
+A-303,Tuesday,ML ,AI-B,Theory,02:30-03:50
+A-305,Tuesday,Web ,SE-E,Theory,08:30-09:50
+A-305,Tuesday,Web Prog ,CY-B,Theory,10:00-11:20
+A-305,Tuesday,Data St ,SE-A,Theory,11:30-12:50
+A-305,Tuesday,TBW ,DS-A,Theory,01:00-02:20
+A-305,Tuesday,Knowl Rep ,AI-C,Theory,02:30-03:50
+A-305,Tuesday,TBW ,AI-C,Theory,03:55-05:15
+A-310,Tuesday,Digi Forensics ,CY-C,Theory,08:30-09:50
+A-310,Tuesday,DB ,CY-C,Theory,10:00-11:20
+A-310,Tuesday,Algo ,CY-C,Theory,11:30-12:50
+A-310,Tuesday,Web Prog ,CY-A,Theory,01:00-02:20
+A-310,Tuesday,TBW ,AI-D,Theory,02:30-03:50
+A-310,Tuesday,Knowl Rep ,AI-D,Theory,03:55-05:15
+A-311,Tuesday,Algo ,CY-D,Theory,08:30-09:50
+A-311,Tuesday,Digi Forensics ,CY-D,Theory,10:00-11:20
+A-311,Tuesday,DB ,CY-D,Theory,11:30-12:50
+A-311,Tuesday,PDC ,"B, 21",Theory,01:00-02:20
+A-311,Tuesday,Net & Cy Sec-II ,CY-A,Theory,02:30-03:50
+A-314,Tuesday,OS ,SE-D,Theory,08:30-09:50
+A-314,Tuesday,Proc Mining ,SE-D,Theory,10:00-11:20
+A-314,Tuesday,Proc Mining ,SE-E,Theory,11:30-12:50
+A-314,Tuesday,OS ,SE-E,Theory,01:00-02:20
+A-314,Tuesday,S/w Qual Engg ,SE-C,Theory,02:30-03:50
+A-314,Tuesday,TBW ,SE-C,Theory,03:55-05:15
+A-315,Tuesday,Proc Mining ,SE-A,Theory,08:30-09:50
+A-315,Tuesday,OS ,SE-A,Theory,10:00-11:20
+A-315,Tuesday,Web ,SE-A,Theory,11:30-12:50
+A-315,Tuesday,Web ,SE-D,Theory,01:00-02:20
+A-315,Tuesday,TBW ,SE-F,Theory,02:30-03:50
+A-315,Tuesday,S/w Qual Engg ,SE-F,Theory,03:55-05:15
+A-316,Tuesday,Gen AI ,AI/DS-A,Theory,08:30-09:50
+A-316,Tuesday,Gen AI ,AI/DS-B,Theory,10:00-11:20
+A-316,Tuesday,S/w Qual Engg ,SE-B,Theory,11:30-12:50
+A-316,Tuesday,TBW ,SE-B,Theory,01:00-02:20
+A-316,Tuesday,Algo ,"CS-D, 22",Theory,02:30-03:50
+A-316,Tuesday,Algo ,"CS-C, 22",Theory,03:55-05:15
+C-110,Tuesday,Deep Learn for Perc ,DS-C,Theory,08:30-09:50
+C-110,Tuesday,MLOPs ,B,Theory,10:00-11:20
+C-110,Tuesday,MLOPs ,A,Theory,11:30-12:50
+C-110,Tuesday,S/w Qual Engg ,SE-G,Theory,01:00-02:20
+C-110,Tuesday,DB ,"SE-B, 22",Theory,02:30-03:50
+A-118 (MEDC),Tuesday,FSM,FSM,Theory,08:30-09:50
+A-118 (MEDC),Tuesday,Game Develop,Game Develop,Theory,10:00-11:20
+A-118 (MEDC),Tuesday,Blockchain & Crypto ,CY-T,Theory,11:30-12:50
+A-118 (MEDC),Tuesday, Info Assurance ,CY-T,Theory,01:00-02:20
+A-118 (MEDC),Tuesday,DB ,"DS-B, 22",Theory,02:30-03:50
+A-118 (MEDC),Tuesday,FSM,FSM,Theory,03:55-05:15
+B-130,Tuesday,FSM,FSM,Theory,08:30-09:50
+B-130,Tuesday,TBW ,SE-G,Theory,10:00-11:20
+B-130,Tuesday,Deep Learn for Perc ,CS-B,Theory,11:30-12:50
+B-130,Tuesday,Comp Net ,"CY, 22",Theory,01:00-02:20
+B-130,Tuesday,FSM,FSM,Theory,02:30-03:50
+B-130,Tuesday,FSM,FSM,Theory,03:55-05:15
+C-Margala 1,Tuesday,C-Margala 1,C-Margala 1,Lab,B-130
+C-Margala 1,Tuesday,PF Lab ,CS-C,Lab,FSM
+C-Margala 1,Tuesday,IICT Lab ,CS-E,Lab,Deep Learn for Perc (CS-B) A-203
+C-Margala 1,Tuesday,PF Lab ,AI-A,Lab,FSM
+C-Margala 3,Tuesday,C-Margala 3,C-Margala 3,Lab,B-130
+C-Margala 3,Tuesday,IICT Lab ,CS-G,Lab,FSM
+C-Margala 3,Tuesday,IICT Lab ,SE-A,Lab,Deep Learn for Perc (CS-B) A-203
+C-Margala 3,Tuesday,Data St Lab ,CS-B,Lab,FSM
+C-Margala 4,Tuesday,C-Margala 4,C-Margala 4,Lab,B-130
+C-Margala 4,Tuesday,PF Lab ,AI-C,Lab,FSM
+C-Margala 4,Tuesday,COAL Lab ,CS-A,Lab,Deep Learn for Perc (CS-B) A-203
+C-Margala 4,Tuesday,Data St Lab ,DS-A,Lab,FSM
+C-Rawal 1,Tuesday,C-Rawal 1,C-Rawal 1,Lab,B-130
+C-Rawal 1,Tuesday,IICT Lab ,DS-B,Lab,FSM
+C-Rawal 1,Tuesday,Data St Lab ,CS-D,Lab,Deep Learn for Perc (CS-B) A-203
+C-Rawal 1,Tuesday,Data St Lab ,SE-A,Lab,FSM
+Rawal 3 (B-232),Tuesday,Rawal 3 ,B-232,Lab,B-130
+Rawal 3 (B-232),Tuesday,COAL Lab ,CS-C,Lab,FSM
+Rawal 3 (B-232),Tuesday,COAL Lab ,SE-B,Lab,Deep Learn for Perc (CS-B) A-203
+Rawal 3 (B-232),Tuesday,Comp Net ,CS-C,Lab,FSM
+C-Rawal 4,Tuesday,C-Rawal 4,C-Rawal 4,Lab,B-130
+C-Rawal 4,Tuesday,PF Lab ,CS-A,Lab,FSM
+C-Rawal 4,Tuesday,Comp Net ,CS-G,Lab,Deep Learn for Perc (CS-B) A-203
+C-Rawal 4,Tuesday,Comp Net ,DS-M,Lab,FSM
+C-GPU Lab,Tuesday,C-GPU Lab,C-GPU Lab,Lab,B-130
+C-GPU Lab,Tuesday,ML ,AI-C,Lab,Deep Learn for Perc (CS-B) A-203
+C-GPU Lab,Tuesday,Comp Vision Lab ,AI-K,Lab,FSM
+A-Karakoram 1,Tuesday,A-Karakoram 1,A-Karakoram 1,Lab,B-130
+A-Karakoram 1,Tuesday,Comp Net ,CS-A,Lab,FSM
+A-Karakoram 1,Tuesday,OS ,AI-D,Lab,Deep Learn for Perc (CS-B) A-203
+A-Karakoram 1,Tuesday,DB Lab ,"CS-B, 22",Lab,FSM
+A-Karakoram 2,Tuesday,A-Karakoram 2,A-Karakoram 2,Lab,B-130
+A-Karakoram 2,Tuesday,Intro to DS Lab ,DS-B,Lab,FSM
+A-Karakoram 2,Tuesday,OS Lab ,DS-B,Lab,Deep Learn for Perc (CS-B) A-203
+A-Karakoram 2,Tuesday,DAV Lab ,DS-A,Lab,FSM
+A-Karakoram 3,Tuesday,A-Karakoram 3,A-Karakoram 3,Lab,B-130
+A-Karakoram 3,Tuesday,OS Lab ,SE-B,Lab,FSM
+A-Karakoram 3,Tuesday,Web Engg Lab ,SE-C,Lab,Deep Learn for Perc (CS-B) A-203
+A-Karakoram 3,Tuesday,OS Lab ,SE-G,Lab,FSM
+A-Mehran 1,Tuesday,A-Mehran 1,A-Mehran 1,Lab,B-130
+A-Mehran 1,Tuesday,Digi Forensics Lab ,CY-A,Lab,FSM
+A-Mehran 1,Tuesday,Web Engg Lab ,SE-F,Lab,Deep Learn for Perc (CS-B) A-203
+A-Mehran 1,Tuesday,DB Lab ,CY-B,Lab,FSM
+A-Mehran 2,Tuesday,A-Mehran 2,A-Mehran 2,Lab,B-130
+A-Mehran 2,Tuesday,FSM,FSM,Lab,FSM
+A-Mehran 2,Tuesday,Func Eng Lab ,DS-A1,Lab,Deep Learn for Perc (CS-B) A-203
+A-Mehran 2,Tuesday,Func Eng Lab ,CY-A1,Lab,FSM
+A-CALL-1,Tuesday,A-CALL-1,A-CALL-1,Lab,B-130
+A-CALL-1,Tuesday,FSM,FSM,Lab,FSM
+A-CALL-1,Tuesday,Func Eng Lab ,DS-A2,Lab,Deep Learn for Perc (CS-B) A-203
+A-CALL-1,Tuesday,Func Eng Lab ,CY-A2,Lab,FSM
+A-CALL-2,Tuesday,A-CALL-2,A-CALL-2,Lab,B-130
+A-CALL-2,Tuesday,Func Eng Lab ,SE-B1,Lab,FSM
+A-CALL-2,Tuesday,Func Eng Lab ,CS-F1,Lab,Deep Learn for Perc (CS-B) A-203
+A-CALL-2,Tuesday,Func Eng Lab ,SE-C1,Lab,FSM
+A-CALL-3,Tuesday,A-CALL-3,A-CALL-3,Lab,B-130
+A-CALL-3,Tuesday,Func Eng Lab ,SE-B2,Lab,FSM
+A-CALL-3,Tuesday,Func Eng Lab ,CS-F2,Lab,Deep Learn for Perc (CS-B) A-203
+A-CALL-3,Tuesday,Func Eng Lab ,SE-C2,Lab,FSM
+B-Digital,Tuesday,B-Digital,B-Digital,Lab,B-130
+B-Digital,Tuesday,DLD Lab ,DS-A,Lab,FSM
+B-Digital,Tuesday,DLD Lab ,DS-B,Lab,FSM

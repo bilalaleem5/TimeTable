@@ -1,0 +1,162 @@
+Class,Day,Course,Section,Type,Time
+C-301,Friday,Calculus ,CS-E,Theory,08:30-09:50
+C-301,Friday,Calculus ,CS-G,Theory,11:30-12:50
+C-301,Friday,P  R  A  Y  E  R     B  R  E  A  K,P  R  A  Y  E  R     B  R  E  A  K,Theory,01:00-02:00
+C-301,Friday,Func Eng ,CS-F,Theory,02:00-03:20
+C-301,Friday,Research Methodology,Research Methodology,Theory,05:20-06:40 
+C-302,Friday,Islamic ,CS-G,Theory,08:30-09:50
+C-302,Friday,Calculus ,CS-F,Theory,11:30-12:50
+C-302,Friday,Research Methodology,Research Methodology,Theory,05:20-06:40 
+C-303,Friday,Islamic ,CS-E,Theory,10:00-11:20
+C-303,Friday,Func Eng ,SE-B,Theory,02:00-03:20
+C-303,Friday,Research Methodology,Research Methodology,Theory,05:20-06:40 
+C-304,Friday,Ideol of Pak ,SE-C,Theory,08:30-09:50
+C-304,Friday,Calculus ,SE-C,Theory,11:30-12:50
+C-304,Friday,Ideol of Pak ,CY-A,Theory,02:00-03:20
+C-304,Friday,Research Methodology,Research Methodology,Theory,05:20-06:40 
+C-305,Friday,Calculus ,SE-A,Theory,08:30-09:50
+C-305,Friday,Calculus ,SE-B,Theory,11:30-12:50
+C-305,Friday,OOP ,"CS-B, 23",Theory,02:00-03:20
+C-305,Friday,Research Methodology,Research Methodology,Theory,05:20-06:40 
+C-307,Friday,Calculus ,DS-B,Theory,08:30-09:50
+C-307,Friday,Ideol of Pak ,SE-A,Theory,10:00-11:20
+C-307,Friday,PPIT ,CS-D,Theory,02:00-03:20
+C-307,Friday,Info Sec ,CS-D,Theory,03:30-04:50
+C-308,Friday,Ideol of Pak ,DS-A,Theory,08:30-09:50
+C-308,Friday,Calculus ,DS-A,Theory,11:30-12:50
+C-308,Friday,Info Sec ,CS-E,Theory,02:00-03:20
+C-308,Friday,PPIT ,CS-E,Theory,03:30-04:50
+C-309,Friday,AP ,CY-A,Theory,08:30-09:50
+C-309,Friday,PF ,CY-A,Theory,10:00-11:20
+C-309,Friday,OOP ,"AI/DS-A, 23",Theory,11:30-12:50
+C-310,Friday,PF ,CY-B,Theory,08:30-09:50
+C-310,Friday,AP ,CY-B,Theory,10:00-11:20
+C-310,Friday,PDC ,"A, 21",Theory,11:30-12:50
+C-310,Friday,Info Sec ,CS-Z,Theory,02:00-03:20
+C-310,Friday,PPIT ,CS-Z,Theory,03:30-04:50
+C-311,Friday,Prob & Stats ,AI-B,Theory,08:30-09:50
+C-311,Friday,PDC ,"B, 21",Theory,10:00-11:20
+C-311,Friday,Prob & Stats ,AI-A,Theory,11:30-12:50
+C-401,Friday,COAL ,CY-A,Theory,08:30-09:50
+C-401,Friday,Critical Thinking ,CY-A,Theory,10:00-11:20
+C-401,Friday,Critical Thinking ,CY-B,Theory,02:00-03:20
+C-402,Friday,OOP ,"SE, 23",Theory,08:30-09:50
+C-402,Friday,COAL ,CY-B,Theory,11:30-12:50
+C-403,Friday,NLP ,A,Theory,10:00-11:20
+C-403,Friday,NLP ,B,Theory,11:30-12:50
+C-404,Friday,Cloud Comp ,A,Theory,10:00-11:20
+C-404,Friday,Cloud Comp ,B,Theory,11:30-12:50
+C-405,Friday,Web Prog,Web Prog,Theory,11:30-12:50
+C-406,Friday,OOP ,"CS-A, 23",Theory,11:30-12:50
+C-407,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+C-407,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+C-407,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+C-407,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+C-407,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+C-408,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+C-408,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+C-408,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+C-408,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+C-408,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+C-409,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+C-409,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+C-409,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+C-409,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+C-409,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+C-410,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+C-410,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+C-410,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+C-410,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+C-410,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+B-227,Friday,FSM,FSM,Theory,08:30-09:50
+B-227,Friday,FSM,FSM,Theory,10:00-11:20
+B-227,Friday,FSM,FSM,Theory,11:30-12:50
+B-227,Friday,FSM,FSM,Theory,02:00-03:20
+B-227,Friday,FSM,FSM,Theory,03:30-04:50
+B-229,Friday,FSM,FSM,Theory,08:30-09:50
+B-229,Friday,FSM,FSM,Theory,10:00-11:20
+B-229,Friday,FSM,FSM,Theory,11:30-12:50
+B-229,Friday,FSM,FSM,Theory,02:00-03:20
+B-229,Friday,FSM,FSM,Theory,03:30-04:50
+B-230,Friday,FSM,FSM,Theory,08:30-09:50
+B-230,Friday,FSM,FSM,Theory,10:00-11:20
+B-230,Friday,FSM,FSM,Theory,11:30-12:50
+B-230,Friday,FSM,FSM,Theory,02:00-03:20
+B-230,Friday,FSM,FSM,Theory,03:30-04:50
+A-108,Friday,FSM,FSM,Theory,08:30-09:50
+A-108,Friday,FSM,FSM,Theory,10:00-11:20
+A-108,Friday,FSM,FSM,Theory,11:30-12:50
+A-108,Friday,FSM,FSM,Theory,02:00-03:20
+A-108,Friday,FSM,FSM,Theory,03:30-04:50
+A-211,Friday,FSM,FSM,Theory,08:30-09:50
+A-211,Friday,FSM,FSM,Theory,10:00-11:20
+A-211,Friday,FSM,FSM,Theory,11:30-12:50
+A-211,Friday,FSM,FSM,Theory,02:00-03:20
+A-211,Friday,FSM,FSM,Theory,03:30-04:50
+A-301,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+A-301,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+A-301,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+A-301,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+A-301,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+A-302,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+A-302,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+A-302,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+A-302,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+A-302,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+A-303,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+A-303,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+A-303,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+A-303,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+A-303,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+A-305,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+A-305,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+A-305,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+A-305,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+A-305,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+A-310,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+A-310,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+A-310,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+A-310,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+A-310,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+A-311,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+A-311,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+A-311,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+A-311,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+A-311,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+A-314,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,08:30-09:50
+A-314,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,10:00-11:20
+A-314,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,11:30-12:50
+A-314,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,02:00-03:20
+A-314,Friday,FYP/MS Thesis,FYP/MS Thesis,Theory,03:30-04:50
+A-315,Friday,FSM,FSM,Theory,08:30-09:50
+A-315,Friday,FSM,FSM,Theory,10:00-11:20
+A-315,Friday,FSM,FSM,Theory,11:30-12:50
+A-315,Friday,FSM,FSM,Theory,02:00-03:20
+A-315,Friday,FSM,FSM,Theory,03:30-04:50
+C-Margala 1,Friday,PF Lab ,CS-F,Lab,08:30-11:15
+C-Margala 1,Friday,PF Lab ,SE-A,Lab,02:15-05:00
+C-Margala 3,Friday,PF Lab ,SE-B,Lab,08:30-11:15
+C-Margala 3,Friday,Data St Lab ,CY-A,Lab,02:15-05:00
+C-Margala 4,Friday,OOP Lab ,"CS-A, 23",Lab,02:15-05:00
+C-Rawal 1,Friday,Prog for AI Lab ,AI-A,Lab,08:30-11:15
+C-Rawal 1,Friday,OOP Lab ,"AI/DS-A, 23",Lab,02:15-05:00
+Rawal 3 (B-232),Friday,DLD ,"CS/AI/DS/SE/CY, 23",Lab,02:15-05:00
+C-Rawal 4,Friday,COAL Lab ,CY-B,Lab,08:30-11:15
+C-Rawal 4,Friday,OS Lab ,"CS-D, 22",Lab,02:15-05:00
+C-GPU Lab,Friday,DB Lab ,"CS-C, 22",Lab,02:15-05:00
+A-Karakoram 1,Friday,OOP Lab ,"CS-B, 23",Lab,08:30-11:15
+A-Karakoram 1,Friday,DB Lab ,"AI-A, 22",Lab,02:15-05:00
+A-Karakoram 2,Friday,AI Lab ,CS-Robo,Lab,08:30-11:15
+A-Karakoram 2,Friday,DB ,"DS-B, 22",Lab,02:15-05:00
+A-Karakoram 3,Friday,OS Lab ,"CS-C, 22",Lab,08:30-11:15
+A-Karakoram 3,Friday,Comp Net Lab ,"CY-A, 22",Lab,02:15-05:00
+A-Mehran 1,Friday,DB Lab ,"CS-D, 22",Lab,08:30-11:15
+A-Mehran 1,Friday,DB Lab ,"SE-A, 22",Lab,02:15-05:00
+A-Mehran 2,Friday,FSM,FSM,Lab,08:30-11:15
+A-Mehran 2,Friday,FSM,FSM,Lab,02:15-05:00
+A-CALL-1,Friday,FSM,FSM,Lab,08:30-11:15
+A-CALL-1,Friday,FSM,FSM,Lab,02:15-05:00
+A-CALL-2,Friday,FSM,FSM,Lab,08:30-11:15
+A-CALL-2,Friday,Func Eng Lab ,CY-B1,Lab,02:15-05:00
+A-CALL-3,Friday,FSM,FSM,Lab,08:30-11:15
+A-CALL-3,Friday,Func Eng Lab ,CY-B2,Lab,02:15-05:00
